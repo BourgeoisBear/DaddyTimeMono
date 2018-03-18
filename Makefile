@@ -1,4 +1,4 @@
-DIR_LOCAL  = /home/jstewart/.fonts
+DIR_LOCAL  = $(HOME)/.fonts
 DIR_OBJ    = ./build
 DIR_REMOTE = /cygdrive/d/_JASON_DOCUMENTS/Desktop
 ROOT_NAME  = DaddyTimeMono
