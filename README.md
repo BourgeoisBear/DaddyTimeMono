@@ -1,7 +1,7 @@
 # DaddyTimeMono
 A monospaced font for programmers and other terminal groupies.
 
-![DaddyTimeMono Font Sample](DaddyTimeMono-sample.png)
+![DaddyTimeMono Font Sample](DaddyTimeMono-sample.gif)
 
 ## Credits
 Digits inspired by the [Corona PPC-400](https://en.wikipedia.org/wiki/Corona_Data_Systems#Corona_PPC-400) BIOS font.
