@@ -1,7 +1,25 @@
 # DaddyTimeMono
 A monospaced font for programmers and other terminal groupies.
 
+**TTF** file is in `./build` directory.
+
 ![DaddyTimeMono Font Sample](DaddyTimeMono-sample.gif)
+
+## Currently Featured
+
+- Unaccented Alphabet
+- Numerals
+- Punctuation
+- Box-Drawing Characters
+- CJK Fullwidth Unaccented Alphabet
+- CJK Fullwidth Numerals
+- CJK Fullwidth Punctuation
+
+## TODO Features
+
+- CP432/ANSI Block & Shade Characters
+- Accented Latin Characters
+- Possibly Cyrillic
 
 ## Credits
 Digits inspired by the [Corona PPC-400](https://en.wikipedia.org/wiki/Corona_Data_Systems#Corona_PPC-400) BIOS font.
