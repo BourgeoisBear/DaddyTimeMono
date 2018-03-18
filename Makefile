@@ -1,11 +1,11 @@
-DIR_LOCAL  = $(HOME)/.fonts
-DIR_OBJ    = ./build
-DIR_REMOTE = /cygdrive/d/_JASON_DOCUMENTS/Desktop
-ROOT_NAME  = DaddyTimeMono
+DIR_LOCAL  := $(HOME)/.fonts
+DIR_OBJ    := ./build
+DIR_REMOTE := /cygdrive/d/_JASON_DOCUMENTS/Desktop
+ROOT_NAME  := DaddyTimeMono
 
-SRC_FILE   = ./${ROOT_NAME}-ttf.sfd
-TTF_FILE   = ${DIR_OBJ}/${ROOT_NAME}.ttf
-TTF_HINTED = ${DIR_OBJ}/${ROOT_NAME}.hinted.ttf
+SRC_FILE   := ./${ROOT_NAME}-ttf.sfd
+TTF_FILE   := ${DIR_OBJ}/${ROOT_NAME}.ttf
+TTF_HINTED := ${DIR_OBJ}/${ROOT_NAME}.hinted.ttf
 
 ${TTF_HINTED}: ${TTF_FILE}
 	ttfautohint -v -W ${TTF_FILE} ${TTF_HINTED}
