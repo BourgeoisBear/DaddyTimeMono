@@ -4,25 +4,25 @@ FullName: DaddyTimeMono
 FamilyName: DaddyTimeMono
 Weight: Book
 Copyright: Copyright (C) 2017-2018 Jason Stewart, All Rights Reserved
-UComments: "2018-1-11: Created."
-Version: 1.003
+UComments: "2018-1-11: Created." 
+FontLog: "2018-03-19: 1.004+AAoA-Adjusted 'S' inflection, vstretched letter 'O'" 
+Version: 1.004
 ItalicAngle: 0
 UnderlinePosition: -147
 UnderlineWidth: 74
 Ascent: 812
 Descent: 212
-InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 2
-Layer: 0 1 "Back" 1
-Layer: 1 1 "Fore" 0
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 XUID: [1021 355 1717067722 10856863]
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515680211
-ModificationTime: 1521441141
+ModificationTime: 1521493014
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -752,7 +752,7 @@ ShortTable: cvt  8
   163
   170
 EndShort
-LangName: 1033 "" "" "" "DaddyTimeMono" "" "" "" "" "Jason Stewart" "" "" "" "https://eggplant.pro" "" "" "" "DaddyTimeMono"
+LangName: 1033 "" "" "" "DaddyTimeMono" "" "" "" "" "Jason Stewart" "" "" "" "https://eggplant.pro" "" "" "" "DaddyTimeMono" 
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -770,22 +770,22 @@ EndPrivate
 GridOrder2: 1
 Grid
 0 479 m 25,0,-1
- 589 479 l 1025
+ 589 479 l 1
 295 1024 m 25,2,-1
- 295 -205 l 1025
+ 295 -205 l 1
 353 740 m 25,4,-1
  295 799 l 1,5,-1
  237 740 l 1,6,-1
  295 682 l 1,7,-1
  353 740 l 25,4,-1
--102 742 m 29,8,-1
- 691 742 l 1025
+-102 742 m 25,8,-1
+ 691 742 l 1
 0 678 m 25,10,-1
- 589 678 l 1025
-0 463 m 25,12,-1
- 589 463 l 1025
+ 589 678 l 1
+0 463 m 29,12,-1
+ 589 463 l 1
 -1024 1107 m 1,14,-1
- 2048 1107 l 1025
+ 2048 1107 l 1
 EndSplineSet
 TeXData: 1 0 0 602931 301990 200278 500171 1048576 200278 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65536 277
@@ -2361,38 +2361,30 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-295 677 m 3,0,1
- 246 677 246 677 209.5 642.5 c 128,-1,2
- 173 608 173 608 155 555.5 c 128,-1,3
- 137 503 137 503 128.5 456 c 128,-1,4
- 120 409 120 409 120 370 c 0,5,6
- 120 326 120 326 125 285 c 128,-1,7
- 130 244 130 244 142.5 203 c 128,-1,8
- 155 162 155 162 174 132.5 c 128,-1,9
- 193 103 193 103 224 84.5 c 128,-1,10
- 255 66 255 66 295 66 c 0,11,12
- 344 66 344 66 379.5 93.5 c 128,-1,13
- 415 121 415 121 433.5 167.5 c 128,-1,14
- 452 214 452 214 460.5 264.5 c 128,-1,15
- 469 315 469 315 469 370 c 0,16,17
- 469 426 469 426 461 476.5 c 128,-1,18
- 453 527 453 527 434.5 574 c 128,-1,19
- 416 621 416 621 380.5 649 c 128,-1,20
- 345 677 345 677 295 677 c 3,0,1
-295 749 m 7,21,22
- 378 749 378 749 439.5 690 c 128,-1,23
- 501 631 501 631 528.5 547 c 128,-1,24
- 556 463 556 463 556 370 c 0,25,26
- 556 276 556 276 529 193 c 128,-1,27
- 502 110 502 110 440.5 52 c 128,-1,28
- 379 -6 379 -6 295 -6 c 0,29,30
- 210 -6 210 -6 148.5 52 c 128,-1,31
- 87 110 87 110 60 193 c 128,-1,32
- 33 276 33 276 33 370 c 0,33,34
- 33 438 33 438 49.5 504 c 128,-1,35
- 66 570 66 570 97.5 625.5 c 128,-1,36
- 129 681 129 681 180.5 715 c 128,-1,37
- 232 749 232 749 295 749 c 7,21,22
+295 749 m 0,0,1
+ 363 749 363 749 416 715 c 0,2,3
+ 465 684 465 684 498 626 c 1,4,5
+ 526 579 526 579 539 504 c 0,6,7
+ 548 454 548 454 549 370 c 1,8,9
+ 549 275 549 275 529 193 c 0,10,11
+ 508 109 508 109 446 52 c 0,12,13
+ 384 -6 384 -6 295 -6 c 0,14,15
+ 204 -6 204 -6 142 52 c 0,16,17
+ 80 109 80 109 59 193 c 0,18,19
+ 39 275 39 275 39 370 c 1,20,21
+ 40 454 40 454 49 504 c 0,22,23
+ 62 579 62 579 90 626 c 1,24,25
+ 123 684 123 684 172 715 c 0,26,27
+ 225 749 225 749 295 749 c 0,0,1
+295 679 m 0,28,29
+ 175 679 175 679 147 543 c 0,30,31
+ 131 464 131 464 131 370 c 0,32,33
+ 132 271 132 271 147 202 c 1,34,35
+ 176 64 176 64 295 64 c 0,36,37
+ 412 64 412 64 441 202 c 1,38,39
+ 456 267 456 267 457 370 c 0,40,41
+ 457 464 457 464 441 543 c 0,42,43
+ 413 679 413 679 295 679 c 0,28,29
 EndSplineSet
 Validated: 3073
 EndChar
@@ -2524,23 +2516,19 @@ SplineSet
 503 742 m 29,0,-1
  547 668 l 5,1,2
  274 668 l 6,3,4
- 124 668 124 668 124 564 c 4,5,6
- 124 451 124 451 231 451 c 6,7,-1
- 370 451 l 6,8,9
- 547 451 547 451 547 230 c 4,10,11
- 547 121 547 121 478 60.5 c 132,-1,12
- 409 0 409 0 295 0 c 6,13,-1
- 42 0 l 5,14,-1
- 86 74 l 5,15,-1
- 290 74 l 6,16,17
- 367 74 367 74 409 112 c 4,18,19
- 451 151 451 151 460 200 c 4,20,21
- 465 229 465 229 465 252 c 4,22,23
- 465 377 465 377 351 377 c 6,24,-1
- 238 377 l 6,25,26
- 132 377 132 377 82 443 c 4,27,28
- 42 495 42 495 42 563 c 4,29,30
- 42 742 42 742 274 742 c 6,31,-1
+ 136 668 136 668 136 558 c 4,5,6
+ 136 463 136 463 264 463 c 6,7,-1
+ 320 463 l 6,8,9
+ 537 463 537 463 547 223 c 261,10,11
+ 527 0 527 0 295 0 c 13,12,-1
+ 42 0 l 5,13,-1
+ 86 74 l 5,14,-1
+ 295 74 l 21,15,16
+ 445 74 445 74 465 223 c 261,17,18
+ 465 389 465 389 331 389 c 6,19,-1
+ 268 389 l 6,20,21
+ 55 389 55 389 54 557 c 260,22,23
+ 54 742 54 742 274 742 c 6,24,-1
  503 742 l 29,0,-1
 EndSplineSet
 Validated: 3073
@@ -4012,8 +4000,6 @@ Width: 588
 VWidth: 0
 Flags: MW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: exclamdown
@@ -7966,8 +7952,6 @@ Width: 1177
 VWidth: 0
 Flags: MW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni256D
@@ -8786,6 +8770,7 @@ SplineSet
  540 79 l 1,3,-1
  48 79 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: H22073
@@ -8807,6 +8792,7 @@ SplineSet
  113 141 l 1,7,-1
  475 141 l 1,4,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25A2
@@ -8848,6 +8834,7 @@ SplineSet
  120 172 120 172 138 155 c 0,46,47
  153 141 153 141 178 141 c 2,28,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25A3
@@ -8874,6 +8861,7 @@ SplineSet
  393 218 l 1,11,-1
  195 218 l 1,8,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: H18543
@@ -8890,6 +8878,7 @@ SplineSet
  441 449 l 1,3,-1
  441 172 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: H18551
@@ -8911,6 +8900,7 @@ SplineSet
  211 389 l 1,7,-1
  211 233 l 1,4,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: filledrect
@@ -8927,6 +8917,7 @@ SplineSet
  540 465 l 1,3,-1
  540 157 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25AD
@@ -8948,6 +8939,7 @@ SplineSet
  113 404 l 1,7,-1
  113 218 l 1,4,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25AE
@@ -8964,6 +8956,7 @@ SplineSet
  540 -36 l 1,3,-1
  48 -36 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: triagup
@@ -8979,6 +8972,7 @@ SplineSet
  577 79 l 1,2,-1
  11 79 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: triagrt
@@ -8994,6 +8988,7 @@ SplineSet
  540 311 l 1,2,-1
  48 45 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: triagdn
@@ -9009,6 +9004,7 @@ SplineSet
  577 542 l 1,2,-1
  294 79 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: triaglf
@@ -9024,6 +9020,7 @@ SplineSet
  540 578 l 1,2,-1
  540 45 l 1,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25C6
@@ -9040,6 +9037,7 @@ SplineSet
  540 311 l 5,3,-1
  294 79 l 5,0,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25C7
@@ -9061,6 +9059,7 @@ SplineSet
  140 311 l 1,7,-1
  294 167 l 1,4,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25C8
@@ -9087,6 +9086,7 @@ SplineSet
  382 311 l 1,11,-1
  294 229 l 1,8,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: uni25C9
@@ -9137,6 +9137,7 @@ SplineSet
  367 245 367 245 343.5 231.5 c 128,-1,53
  320 218 320 218 294 218 c 256,36,37
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: lozenge
@@ -9161,6 +9162,7 @@ SplineSet
  214 311 l 1,10,-1
  294 198 l 1,7,-1
 EndSplineSet
+Validated: 3073
 EndChar
 
 StartChar: circle
@@ -9198,6 +9200,7 @@ SplineSet
  161 186 161 186 203.5 163.5 c 128,-1,35
  246 141 246 141 294 141 c 256,22,23
 EndSplineSet
+Validated: 3073
 EndChar
 EndChars
 EndSplineFont
