@@ -17,8 +17,9 @@ A monospaced font for programmers and other terminal groupies.
 
 ## TODO Features
 
-- CP432/ANSI Block & Shade Characters
+- CP437/ANSI Block & Shade Characters
 - Accented Latin Characters
+- Powerline Symbols
 - Possibly Cyrillic
 
 ## Credits
