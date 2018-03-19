@@ -14,10 +14,11 @@ A monospaced font for programmers and other terminal groupies.
 - CJK Fullwidth Unaccented Alphabet
 - CJK Fullwidth Numerals
 - CJK Fullwidth Punctuation
+- CP437/ANSI Block & Shade Characters
 
 ## TODO Features
 
-- CP437/ANSI Block & Shade Characters
+- CP437/ANSI Block & Shade Character V-Height
 - Accented Latin Characters
 - Powerline Symbols
 - Possibly Cyrillic
