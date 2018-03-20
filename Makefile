@@ -15,10 +15,6 @@ ${TTF_FILE}: ${SRC_FILE}
 	chmod ug+x $@
 
 remote: ${TTF_HINTED}
-<<<<<<< HEAD
-=======
-	chmod ug+x $<
->>>>>>> 014688e5bf694b8806d36f113e7d96dcbeb5ded0
 	scp $< newcore:${DIR_REMOTE}/${ROOT_NAME}.ttf
 
 local: ${TTF_HINTED}
