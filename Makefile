@@ -1,4 +1,3 @@
-DIR_LOCAL  := $(HOME)/.fonts
 DIR_OBJ    := ./build
 DIR_REMOTE := /cygdrive/d/_JASON_DOCUMENTS/Desktop
 ROOT_NAME  := DaddyTimeMono
@@ -13,12 +12,12 @@ ${TTF_HINTED}: ${TTF_FILE}
 ${TTF_FILE}: ${SRC_FILE}
 	fontforge -lang=ff -script ./makettf.ffscript ${SRC_FILE} ${TTF_FILE}
 
-remote:
+remote: ${TTF_HINTED}
 	chmod ug+x ${DIR_OBJ}/*.ttf
-	scp ${TTF_HINTED} newcore:${DIR_REMOTE}/${ROOT_NAME}.ttf
+	scp $< newcore:${DIR_REMOTE}/${ROOT_NAME}.ttf
 
-local:
-	cp ${TTF_HINTED} ${DIR_LOCAL}/${ROOT_NAME}.ttf
+local: ${TTF_HINTED}
+	sudo cp $< /usr/share/fonts/truetype/${ROOT_NAME}.ttf
 
 clean:
 	rm -f ${DIR_OBJ}/*.ttf
