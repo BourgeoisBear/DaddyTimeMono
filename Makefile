@@ -13,7 +13,7 @@ ${TTF_FILE}: ${SRC_FILE}
 	fontforge -lang=ff -script ./makettf.ffscript ${SRC_FILE} ${TTF_FILE}
 
 remote: ${TTF_HINTED}
-	chmod ug+x ${DIR_OBJ}/*.ttf
+	chmod ug+x $<
 	scp $< newcore:${DIR_REMOTE}/${ROOT_NAME}.ttf
 
 local: ${TTF_HINTED}
