@@ -5,7 +5,7 @@ FamilyName: DaddyTimeMono
 Weight: Book
 Copyright: Copyright (C) 2017-2018 Jason Stewart, All Rights Reserved
 UComments: "2018-1-11: Created."
-Version: 1.008
+Version: 1.0081
 ItalicAngle: 0
 UnderlinePosition: -147
 UnderlineWidth: 74
@@ -3141,7 +3141,6 @@ EndChar
 StartChar: plusminus
 Encoding: 177 177 94
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11370,7 +11369,6 @@ EndChar
 StartChar: cent
 Encoding: 162 162 406
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11417,7 +11415,6 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 407
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11461,7 +11458,6 @@ EndChar
 StartChar: currency
 Encoding: 164 164 408
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11515,7 +11511,6 @@ EndChar
 StartChar: yen
 Encoding: 165 165 409
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11551,7 +11546,6 @@ EndChar
 StartChar: brokenbar
 Encoding: 166 166 410
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11573,7 +11567,6 @@ EndChar
 StartChar: section
 Encoding: 167 167 411
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11693,7 +11686,6 @@ EndChar
 StartChar: copyright
 Encoding: 169 169 413
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11751,7 +11743,6 @@ EndChar
 StartChar: ordfeminine
 Encoding: 170 170 414
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11820,7 +11811,6 @@ EndChar
 StartChar: logicalnot
 Encoding: 172 172 416
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11839,7 +11829,6 @@ EndChar
 StartChar: uni00AD
 Encoding: 173 173 417
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11856,7 +11845,6 @@ EndChar
 StartChar: registered
 Encoding: 174 174 418
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11920,7 +11908,6 @@ EndChar
 StartChar: macron
 Encoding: 175 175 419
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -11937,7 +11924,6 @@ EndChar
 StartChar: degree
 Encoding: 176 176 420
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12055,7 +12041,6 @@ EndChar
 StartChar: acute
 Encoding: 180 180 423
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12072,7 +12057,6 @@ EndChar
 StartChar: mu
 Encoding: 181 181 424
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12111,7 +12095,6 @@ EndChar
 StartChar: paragraph
 Encoding: 182 182 425
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12147,7 +12130,6 @@ EndChar
 StartChar: cedilla
 Encoding: 184 184 426
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12195,7 +12177,6 @@ EndChar
 StartChar: ordmasculine
 Encoding: 186 186 428
 Width: 588
-VWidth: 1000
 Flags: MW
 LayerCount: 2
 Fore
@@ -12591,7 +12572,6 @@ EndChar
 StartChar: uni00A0
 Encoding: 160 160 434
 Width: 588
-VWidth: 0
 Flags: MW
 LayerCount: 2
 EndChar
