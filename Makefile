@@ -21,3 +21,4 @@ local: ${TTF_HINTED}
 
 clean:
 	rm -f ${DIR_OBJ}/*.ttf
+	rm -f ./*.sfd-*
