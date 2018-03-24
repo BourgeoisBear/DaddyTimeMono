@@ -5,7 +5,7 @@ FamilyName: DaddyTimeMono
 Weight: Book
 Copyright: Copyright (C) 2017-2018 Jason Stewart, All Rights Reserved
 UComments: "2018-1-11: Created."
-Version: 1.0081
+Version: 1.0082
 ItalicAngle: 0
 UnderlinePosition: -147
 UnderlineWidth: 74
@@ -21,26 +21,27 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515680211
-ModificationTime: 1521808459
+ModificationTime: 1521880519
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 59
+LineGap: 0
 VLineGap: 0
 Panose: 0 0 5 9 0 0 0 0 0 0
 OS2TypoAscent: 876
 OS2TypoAOffset: 0
-OS2TypoDescent: -276
+OS2TypoDescent: -277
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 876
 OS2WinAOffset: 0
-OS2WinDescent: 276
+OS2WinDescent: 277
 OS2WinDOffset: 0
 HheadAscent: 876
 HheadAOffset: 0
-HheadDescent: -217
+HheadDescent: -277
 HheadDOffset: 0
+OS2XHeight: 471
 OS2Vendor: 'EGSD'
 MarkAttachClasses: 1
 DEI: 91125
@@ -56,7 +57,7 @@ WinInfo: 0 19 18
 BeginPrivate: 3
 StdHW 4 [73]
 StdVW 4 [82]
-BlueValues 23 [-13 1 473 489 740 749]
+BlueValues 23 [-13 1 473 489 741 749]
 EndPrivate
 GridOrder2: 1
 Grid
@@ -7234,7 +7235,7 @@ LayerCount: 2
 Fore
 SplineSet
 588 -277 m 1,0,-1
- 0 -277 l 1,1,-1
+ 0 -277 l 5,1,-1
  0 876 l 1,2,-1
  588 876 l 1,3,-1
  588 -277 l 1,0,-1
@@ -11409,7 +11410,7 @@ SplineSet
  336 -74 l 1,57,-1
  254 -74 l 5,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: sterling
@@ -11632,7 +11633,7 @@ SplineSet
  214 317 214 317 254 299 c 0,109,110
  270 291 270 291 301 280 c 5,87,88
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: dieresis
