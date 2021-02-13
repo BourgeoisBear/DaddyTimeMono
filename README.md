@@ -7,7 +7,8 @@ A monospaced font for programmers and other terminal groupies.
 
 ## Currently Featured
 
-- Unaccented Alphabet
+- ASCII Characters
+- Most Latin Characters
 - Numerals
 - Punctuation
 - Box-Drawing Characters
@@ -19,7 +20,7 @@ A monospaced font for programmers and other terminal groupies.
 ## TODO Features
 
 - CP437/ANSI Box-Fill Character Width
-- Accented Latin Characters
+- Complete Latin Characters
 - Powerline Symbols
 - Possibly Cyrillic
 

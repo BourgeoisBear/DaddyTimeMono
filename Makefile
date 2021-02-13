@@ -1,5 +1,4 @@
 DIR_OBJ    := ./build
-DIR_REMOTE := /cygdrive/d/_JASON_DOCUMENTS/Desktop
 ROOT_NAME  := DaddyTimeMono
 
 SRC_FILE   := ./${ROOT_NAME}-ttf.sfd
@@ -12,12 +11,6 @@ ${TTF_HINTED}: ${TTF_FILE}
 
 ${TTF_FILE}: ${SRC_FILE}
 	fontforge -lang=ff -script ./makettf.ffscript ${SRC_FILE} ${TTF_FILE}
-
-remote: ${TTF_HINTED}
-	scp $< newcore:${DIR_REMOTE}/${ROOT_NAME}.ttf
-
-local: ${TTF_HINTED}
-	sudo cp $< /usr/share/fonts/truetype/${ROOT_NAME}.ttf
 
 clean:
 	rm -f ${DIR_OBJ}/*.ttf
