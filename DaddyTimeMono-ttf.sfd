@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515680211
-ModificationTime: 1613204145
+ModificationTime: 1613283133
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 19 14
+WinInfo: 7752 19 14
 BeginPrivate: 3
 StdHW 4 [73]
 StdVW 4 [82]
@@ -19088,7 +19088,7 @@ VWidth: 0
 Flags: HM
 LayerCount: 2
 Fore
-Refer: 953 777 S 1 0 0 1 -3 -172 2
+Refer: 953 777 N 1 0 0 1 -3 -132 2
 Refer: 56 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
