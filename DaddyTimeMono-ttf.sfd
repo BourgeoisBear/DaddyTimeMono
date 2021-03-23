@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515680211
-ModificationTime: 1613284191
+ModificationTime: 1616462857
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -48,12 +48,13 @@ DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "Jason Stewart" "" "" "" "https://eggplant.pro" "" "" "" "DaddyTimeMono"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 7714 19 14
+WinInfo: 0 20 10
 BeginPrivate: 3
 StdHW 4 [73]
 StdVW 4 [82]
@@ -529,18 +530,13 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-293 799 m 0
- 308 799 322 794 333 785 c 0
- 344 776 350 765 350 753 c 0
- 350 736 349 711 346 679 c 0
- 343 647 337 612 328 574 c 0
+238 753 m 0
+ 238 779 266 799 293 799 c 4
+ 320 799 350 779 350 753 c 0
+ 350 695 341 631 328 574 c 0
  319 536 307 518 293 518 c 0
- 282 518 273 529 265 550 c 0
- 257 571 252 596 248 626 c 0
- 244 656 241 682 240 703 c 0
- 239 724 238 741 238 753 c 0
- 238 765 243 776 254 785 c 0
- 265 794 278 799 293 799 c 0
+ 263 518 253 591 248 626 c 0
+ 242 672 238 711 238 753 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -2018,7 +2014,7 @@ Width: 588
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 719 768 N 1 0 0 1 0 0 2
+Refer: 719 768 S 1.275 0 0 1.275 -83 -588 2
 Validated: 1
 EndChar
 
@@ -11887,7 +11883,7 @@ Width: 588
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 450 769 N 1 0 0 1 0 0 2
+Refer: 450 769 S 1.275 0 0 1.275 -77 -589 2
 Validated: 1
 EndChar
 
@@ -18814,6 +18810,7 @@ SplineSet
  274 1145 214 1119 200 1108 c 1
  192 1169 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni1EA2
@@ -18825,6 +18822,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -3 -132 2
 Refer: 34 65 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EA3
@@ -18836,6 +18834,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -42 -402 2
 Refer: 64 97 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EA8
@@ -18847,6 +18846,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 134 -17 2
 Refer: 473 194 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EA9
@@ -18858,6 +18858,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 151 -296 2
 Refer: 498 226 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EB2
@@ -18869,6 +18870,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 2 57 2
 Refer: 525 258 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EB3
@@ -18880,6 +18882,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -37 -213 2
 Refer: 526 259 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EBA
@@ -18891,6 +18894,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -22 -132 2
 Refer: 36 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EBB
@@ -18902,6 +18906,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -3 -402 2
 Refer: 68 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EC8
@@ -18913,6 +18918,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -26 -132 2
 Refer: 40 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EC9
@@ -18924,6 +18930,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -35 -402 2
 Refer: 435 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EC2
@@ -18935,6 +18942,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 151 -30 2
 Refer: 480 202 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EC3
@@ -18946,6 +18954,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 151 -296 2
 Refer: 505 234 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ECE
@@ -18957,6 +18966,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -3 -132 2
 Refer: 46 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ECF
@@ -18968,6 +18978,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -9 -402 2
 Refer: 78 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED4
@@ -18979,6 +18990,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 151 -30 2
 Refer: 489 212 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1ED5
@@ -18990,6 +19002,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 151 -296 2
 Refer: 514 244 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EDE
@@ -19001,6 +19014,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 -19 -130 2
 Refer: 634 416 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EDF
@@ -19012,6 +19026,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 -9 -402 2
 Refer: 635 417 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EE6
@@ -19023,6 +19038,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 -4 -132 2
 Refer: 52 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EE7
@@ -19034,6 +19050,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -4 -402 2
 Refer: 84 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EEC
@@ -19045,6 +19062,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 -4 -162 2
 Refer: 636 431 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EED
@@ -19056,6 +19074,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 S 1 0 0 1 -16 -412 2
 Refer: 637 432 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: uni1EF6
@@ -19067,6 +19086,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -3 -132 2
 Refer: 56 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1EF7
@@ -19078,6 +19098,7 @@ LayerCount: 2
 Fore
 Refer: 953 777 N 1 0 0 1 -4 -402 2
 Refer: 88 121 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni01B7
@@ -19710,7 +19731,7 @@ EndChar
 StartChar: uni0328
 Encoding: 808 808 1012
 Width: 586
-Flags: HW
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 447 731 N 1 0 0 1 0 0 2
