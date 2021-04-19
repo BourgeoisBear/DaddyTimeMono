@@ -5,7 +5,7 @@ FamilyName: DaddyTimeMono
 Weight: Book
 Copyright: Copyright (C) 2017-2021 Jason Stewart, All Rights Reserved
 UComments: "2018-01-11: Created.+AAoA-2021-02-13: Added enough latin chars for Vietnamese."
-Version: 1.1
+Version: 1.2
 ItalicAngle: 0
 UnderlinePosition: -147
 UnderlineWidth: 74
@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515680211
-ModificationTime: 1616462857
+ModificationTime: 1618873318
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,10 +51,10 @@ Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 20 10
+WinInfo: 0 36 18
 BeginPrivate: 3
 StdHW 4 [73]
 StdVW 4 [82]
@@ -11226,7 +11226,7 @@ SplineSet
  237 274 245 266 256 261 c 0
  268 256 281 254 294 254 c 256
 EndSplineSet
-Validated: 1
+Validated: 6291457
 EndChar
 
 StartChar: cent
@@ -12559,7 +12559,7 @@ SplineSet
  335 -76 257 -97 257 -138 c 4
  257 -162 277 -173 300 -173 c 4
 EndSplineSet
-Validated: 1
+Validated: 6291457
 EndChar
 
 StartChar: uni0306
