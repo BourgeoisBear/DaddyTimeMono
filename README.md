@@ -12,9 +12,6 @@ A monospaced font for programmers and other terminal groupies.
 - Numerals
 - Punctuation
 - Box-Drawing Characters
-- CJK Fullwidth Unaccented Alphabet
-- CJK Fullwidth Numerals
-- CJK Fullwidth Punctuation
 - CP437/ANSI Line Drawing & Box-Fill Characters
 
 ## TODO Features
