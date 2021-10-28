@@ -1,17 +1,9 @@
-DIR_OBJ    := ./build
-ROOT_NAME  := DaddyTimeMono
+#!/bin/sh
 
-SRC_FILE   := ./${ROOT_NAME}-ttf.sfd
-TTF_FILE   := ${DIR_OBJ}/${ROOT_NAME}.nohint.ttf
-TTF_HINTED := ${DIR_OBJ}/${ROOT_NAME}.ttf
+ROOT_NAME="DaddyTimeMono"
+DIR_OUT="./build"
 
-${TTF_HINTED}: ${TTF_FILE}
-	ttfautohint -v -n -i -W ${TTF_FILE} ${TTF_HINTED}
-	chmod ug+x $@
+rm -f ${DIR_OUT}/*
+fontforge -lang=ff -script ./make.ffscript ./${ROOT_NAME}.sfd
+#ttfautohint -v -n -i -W ${DIR_OUT}/${ROOT_NAME}.nohint.ttf ${DIR_OUT}/${ROOT_NAME}.ttf
 
-${TTF_FILE}: ${SRC_FILE}
-	fontforge -lang=ff -script ./makettf.ffscript ${SRC_FILE} ${TTF_FILE}
-
-clean:
-	rm -f ${DIR_OBJ}/*.ttf
-	rm -f ./*.sfd-*
