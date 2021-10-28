@@ -1,0 +1,6 @@
+Open($1);
+# 0x000080: Apple & MS
+# 0x200000: Round Coordinates
+Generate($1:r + ".ttf", "", 0x200080);
+Generate($1:r + ".otf", "", 0x200080);
+
