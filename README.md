@@ -1,7 +1,7 @@
 # DaddyTimeMono
 A monospaced font for programmers and other terminal groupies.
 
-**TTF** file is in `./build` directory.
+**OTF** file is in `./build` directory.
 
 ![DaddyTimeMono Font Sample](DaddyTimeMono-sample.png)
 
